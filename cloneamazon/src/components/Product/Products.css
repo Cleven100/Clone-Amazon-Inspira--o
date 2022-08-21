@@ -10,6 +10,8 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
+
+  
 }
 
 .product__rating {
@@ -17,19 +19,20 @@
 }
 
 .product > img {
-  max-height: 200px;
+  max-height: 100px;
   width: 100%;
   object-fit: contain;
   margin: 20px 0 0 15px;
 }
 
-.product > button {
-  background: #ff9f00;
+button {
+  background: #ff9f00 !important;
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
+
 
 .product__price {
   margin-top: 5px;
